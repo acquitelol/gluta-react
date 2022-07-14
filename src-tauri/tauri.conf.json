@@ -7,8 +7,8 @@
     "distDir": "../build"
   },
   "package": {
-    "productName": "gluta",
-    "version": "0.1.0"
+    "productName": "Gluta",
+    "version": "0.0.1"
   },
   "tauri": {
     "allowlist": {
@@ -56,10 +56,10 @@
     "windows": [
       {
         "fullscreen": false,
-        "height": 600,
-        "resizable": true,
+        "height": 360,
+        "resizable": false,
         "title": "Gluta",
-        "width": 800
+        "width": 250
       }
     ]
   }

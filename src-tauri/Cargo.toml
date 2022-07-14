@@ -4,8 +4,7 @@ version = "0.0.1"
 description = "A Tauri App"
 authors = ["acquite"]
 license = ""
-repository = "https://github.com/acquitelol/gluta"
-default-run = "app"
+repository = "https://github.com/acquitelol/gluta-react"
 edition = "2021"
 rust-version = "1.57"
 
