@@ -29,7 +29,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "com.gluta.app",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
@@ -61,6 +61,10 @@
         "title": "Gluta",
         "width": 250
       }
-    ]
+    ],
+    "systemTray": {
+      "iconPath": "icons/icon.png",
+      "iconAsTemplate": true
+    }
   }
 }
