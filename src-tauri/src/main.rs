@@ -36,8 +36,8 @@ fn main() {
           y: 0.0,
         };
         let logical_pos: tauri::Position = tauri::Position::Logical(logical_position);
-        window.set_position(logical_position).unwrap();
-        
+        window.set_position(logical_pos).unwrap();
+
         if !a {
           window.set_focus().unwrap();
         }
