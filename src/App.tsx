@@ -3,9 +3,16 @@ import './CSS/App.css'
 import PreviewComponent from './Components/Preview'
 
 const App: React.FC = () => {
+  useEffect(() => {
+  
+  }, [])
+
   return (
     <>
-      <PreviewComponent />
+      <div className={`container-main-window`}>
+        <PreviewComponent />
+      </div>
+      
     </>
   )
 }

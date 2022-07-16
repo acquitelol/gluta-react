@@ -14,6 +14,7 @@
     "allowlist": {
       "all": true
     },
+    "macOSPrivateApi": true,
     "bundle": {
       "active": true,
       "category": "DeveloperTool",
@@ -40,7 +41,7 @@
       },
       "resources": [],
       "shortDescription": "",
-      "targets": "all",
+      "targets": "app",
       "windows": {
         "certificateThumbprint": null,
         "digestAlgorithm": "sha256",
@@ -59,12 +60,15 @@
         "height": 360,
         "resizable": false,
         "title": "Gluta",
-        "width": 250
+        "width": 250,
+        "transparent": true,
+        "skipTaskbar": true
       }
     ],
     "systemTray": {
       "iconPath": "icons/icon.png",
-      "iconAsTemplate": true
+      "iconAsTemplate": true,
+      "menuOnLeftClick": false
     }
   }
 }

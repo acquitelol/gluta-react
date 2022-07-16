@@ -1,3 +1,38 @@
 h1 {
     text-align: center;
 }
+
+body {
+    background: transparent;
+    opacity: 1;
+    transition: opacity 300ms ease;
+}
+
+
+.container-main-window {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: #201c1c;
+    margin: 0;
+    padding: 0;
+    transform: translateX(-0.5em) translateY(-0.5em);
+    border-radius: 1em;
+    animation: opacityTest 300ms ease;
+    transition: all 300ms ease;
+    opacity: 0;
+    z-index: -1;
+}
+
+.container-main-window:hover {
+    opacity: 1;
+}
+
+@keyframes opacityTest {
+    0% {
+        opacity: 0.01;
+    }
+    100% {
+        opacity: 0;
+    }
+}

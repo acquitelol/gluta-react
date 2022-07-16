@@ -8,13 +8,14 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
-    "@types/node": "^16.11.44",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "cargo": "^0.8.0",
+    "discord-rpc": "^4.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "tauri-plugin-positioner-api": "github:JonasKruckenberg/tauri-plugin-positioner",
     "typescript": "^4.7.4",
     "web-vitals": "^2.1.4"
   },
@@ -44,7 +45,9 @@
     ]
   },
   "devDependencies": {
-    "@tauri-apps/cli": "^1.0.3",
-    "cross-env": "^7.0.3"
+    "@tauri-apps/cli": "^1.0.4",
+    "@types/node": "^18.0.4",
+    "cross-env": "^7.0.3",
+    "timers-browserify": "^2.0.12"
   }
 }
