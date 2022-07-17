@@ -1,0 +1,63 @@
+A forest has 10,000 trees of which there is a 4:1 ratio of Nordmann fir to Norway spruce. How would you design a program to simulate the following problem?
+
+Create a forest with the correct requirements:
+
+
+	
+Nordmann Fir trees can only be cut down between the ages of 25 and 70 years
+	
+Norway Spruce trees can only be harvested between the ages of 90 and 150 years
+	
+The management have decided that every 3 tree plant should be a maple 
+	
+After 4 years:
+	
+
+		
+They can be tapped for maple syrup, they produce 1.5 litres
+		
+How many 0.5 litre containers will be needed
+	
+	
+	
+Any diseased trees should be cut down and burnt 
+	
+A Nordmann fir over the age of 250 can't be cut down unless it is diseased.
+	
+If a Norway spruce is over 150 years it is cut down and left for a bug hotel (unless diseased)
+	
+Calculate how many trucks you will need to take away the harvest.
+	
+
+		
+35 Nordmann fir trees per truck
+		
+15 Norway spruce trees per truck
+	
+	
+	
+For each cut or burnt tree plant 1 more
+	
+You have a team of three foresters they can cut down 10 Nordmann Fir and/or 4 Norway Spruce per day
+	
+Foresters are hired for 30 days per year 
+	
+Random forest fire: Only between months of June - August or if school holidays are on or if it is international camping day and it is not raining.
+	
+Deer damage new trees unless they are protected. Protection is random. The deer herd expands by of 25 deer per year the initial population is 57. 
+	
+5 years ago, a pack of wolves were released into your forest (1 male-3 female). Each wolf needs the equivalent 1 deer to survive a month and every female has one healthy pup per year. Male wolves are chased away at the age of 3 and remaining members can die of disease or old age.
+	
+Due to popular demand, you have released a colony of beavers into your river:
+	
+
+		
+what do they need to survive and 
+		
+how will it affect your forest? 
+	
+	
+	
+Sir Mahon Hughes loves doves- any tree with doves cannot be cut down or tapped for maple syrup. Every 1:50 trees are home to a dove.
+	
+The North East quadrant of your forest has the mighty, mythical and magical river 'Agrona' running through it. Trees grow at 3 times the rate along her banks - but beware sometimes strange things happen.........
